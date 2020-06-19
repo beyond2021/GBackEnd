@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22088675249C91BF00F1D9C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22088674249C91BF00F1D9C4 /* GoogleService-Info.plist */; };
 		227D8A75249C838800D992B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D8A74249C838800D992B0 /* AppDelegate.swift */; };
 		227D8A77249C838800D992B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D8A76249C838800D992B0 /* SceneDelegate.swift */; };
 		227D8A79249C838800D992B0 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227D8A78249C838800D992B0 /* FirstViewController.swift */; };
@@ -14,9 +15,11 @@
 		227D8A7E249C838900D992B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D8A7C249C838900D992B0 /* Main.storyboard */; };
 		227D8A80249C83A500D992B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227D8A7F249C83A500D992B0 /* Assets.xcassets */; };
 		227D8A83249C83A500D992B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227D8A81249C83A500D992B0 /* LaunchScreen.storyboard */; };
+		3C5C4BA1B50BFA5A98A46078 /* Pods_KevBackEnd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42294791B7D9F02450AF8CB /* Pods_KevBackEnd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22088674249C91BF00F1D9C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		227D8A71249C838800D992B0 /* KevBackEnd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KevBackEnd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		227D8A74249C838800D992B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		227D8A76249C838800D992B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,9 @@
 		227D8A7F249C83A500D992B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227D8A82249C83A500D992B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		227D8A84249C83A500D992B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9793EBB89DB9B1C24407774B /* Pods-KevBackEnd.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KevBackEnd.release.xcconfig"; path = "Target Support Files/Pods-KevBackEnd/Pods-KevBackEnd.release.xcconfig"; sourceTree = "<group>"; };
+		E42294791B7D9F02450AF8CB /* Pods_KevBackEnd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KevBackEnd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F3BE8B414FD9BF641ABB34 /* Pods-KevBackEnd.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KevBackEnd.debug.xcconfig"; path = "Target Support Files/Pods-KevBackEnd/Pods-KevBackEnd.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5C4BA1B50BFA5A98A46078 /* Pods_KevBackEnd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				227D8A73249C838800D992B0 /* KevBackEnd */,
 				227D8A72249C838800D992B0 /* Products */,
+				98F1A5B4B5A8FAD527A333A0 /* Pods */,
+				7F38D3F1CAA9099D92FBDA62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +75,26 @@
 				227D8A7F249C83A500D992B0 /* Assets.xcassets */,
 				227D8A81249C83A500D992B0 /* LaunchScreen.storyboard */,
 				227D8A84249C83A500D992B0 /* Info.plist */,
+				22088674249C91BF00F1D9C4 /* GoogleService-Info.plist */,
 			);
 			path = KevBackEnd;
+			sourceTree = "<group>";
+		};
+		7F38D3F1CAA9099D92FBDA62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E42294791B7D9F02450AF8CB /* Pods_KevBackEnd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98F1A5B4B5A8FAD527A333A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5F3BE8B414FD9BF641ABB34 /* Pods-KevBackEnd.debug.xcconfig */,
+				9793EBB89DB9B1C24407774B /* Pods-KevBackEnd.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 227D8A87249C83A600D992B0 /* Build configuration list for PBXNativeTarget "KevBackEnd" */;
 			buildPhases = (
+				72E163558EE6EC6B21946307 /* [CP] Check Pods Manifest.lock */,
 				227D8A6D249C838800D992B0 /* Sources */,
 				227D8A6E249C838800D992B0 /* Frameworks */,
 				227D8A6F249C838800D992B0 /* Resources */,
+				5128619F7E7DAE676F7E5CA9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,12 +158,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				227D8A83249C83A500D992B0 /* LaunchScreen.storyboard in Resources */,
+				22088675249C91BF00F1D9C4 /* GoogleService-Info.plist in Resources */,
 				227D8A80249C83A500D992B0 /* Assets.xcassets in Resources */,
 				227D8A7E249C838900D992B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5128619F7E7DAE676F7E5CA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KevBackEnd/Pods-KevBackEnd-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KevBackEnd/Pods-KevBackEnd-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KevBackEnd/Pods-KevBackEnd-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72E163558EE6EC6B21946307 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KevBackEnd-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		227D8A6D249C838800D992B0 /* Sources */ = {
@@ -286,6 +358,7 @@
 		};
 		227D8A88249C83A600D992B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5F3BE8B414FD9BF641ABB34 /* Pods-KevBackEnd.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -304,6 +377,7 @@
 		};
 		227D8A89249C83A600D992B0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9793EBB89DB9B1C24407774B /* Pods-KevBackEnd.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
